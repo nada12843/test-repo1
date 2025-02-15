@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html :lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content=width=device-width, intial-scale=1.0">
+ <title>hello world</title> 
+ <style>
+ body{
+  font-family= Arial, san-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  height: 150vh; 
+ {
+  h1 } font-size: 36px;
+  font-wieght: Bold;
+  margin-top: 40px;
+ }
+
+h2 {
+  font-size: 20px;
+  font-wieght: normal;
+  margin-top: -10px;
+}
+.profile-pic {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 20px 0;
+
+}
+
+.content {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+
+}
+ .floating-text {
+  postion: absolute;
+  font-size: 18px; 
+  color: #333;
+ }
+  
+ .html-text { top: 60%; left: 20%; }
+        .css-text { top: 62%; right: 42%; }
+        .js-text { top: 64%; right: 20%; }
+        .black-section {
+            background-color: black;
+            color: white;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+        .black-section h3 {
+            font-style: italic;
+        }
+        .black-section p {
+            font-size: 16px;
+        }
+        .footer {
+            margin: 20px 0;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <h2>Welcome to my site!</h2>
+    <img class="profile-pic" src="duck.jpg" alt="Profile Picture">
+    <div class="content">
+        <p>I am currently learning to code with <strong><a href="https://www.codefirstgirls.org.uk/">Code First: Girls</a></strong>. Going over everything from how the internet works, to creating websites and version control with git. A lot to cover in only 8 weeks! Everyone should learn to code, here are some pretty good reasons why...</p>
+    </div>
+    <div class="floating-text html-text">HTML is cool</div>
+    <div class="floating-text css-text">CSS is cooler</div>
+    <div class="floating-text js-text">JS is the best</div>
+    <div class="black-section">
+        <h3>What do you need to create a website?</h3>
+        <p>A computer &emsp; A text editor &emsp; A web browser &emsp; Some HTML, CSS, and JS files</p>
+    </div>
+    <div class="footer">
+        <p>Follow my progress on <a href="https://github.com">github</a></p>
+    </div>
+</body>
+</html>
+
+     
